@@ -2,7 +2,7 @@
 name = "terminal-ai"
 version = "0.1.0"
 description = ""
-authors = ["sahil <sahilofficial17@gmail.com>"]
+authors = ["Sahil Gupta"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -16,3 +16,6 @@ pytest = "^8.3.4"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+tai = "terminal_ai.main:main"
