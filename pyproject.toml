@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "terai"
-version = "0.2.0"
-description = ""
+version = "0.3.0"
+description = "A terminal-based AI assistant that translates natural language queries into shell commands and executes them directly. Users can interact naturally, such as by typing \"create me a Docker container,\" and the AI will generate, display, and run the appropriate command."
 authors = ["Sahil Gupta"]
 readme = "README.md"
 
