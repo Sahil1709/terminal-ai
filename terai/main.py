@@ -3,20 +3,21 @@ import argparse
 import subprocess
 
 def main():
+
     check_api_key()
     
     parser = argparse.ArgumentParser(description="Terminal AI CLI")
     parser.add_argument("query", nargs=argparse.REMAINDER, help="User query for terminal commands")
-    
+
     args = parser.parse_args()
     user_query = " ".join(args.query)
-    
+
     if not user_query.strip():
         print("No query provided. Exiting.")
         return
-    
+
     commands = get_completions(user_query)
-    
+
     for command in commands:
         print(f"\t\033[1;32m$ {command}\033[0m")
         user_input = input("\033[1;37mPress Enter to execute the command, or press 'q' to cancel: \033[0m")
