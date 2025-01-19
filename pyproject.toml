@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "terai"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Sahil Gupta"]
 readme = "README.md"
@@ -18,4 +18,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-tai = "terminal_ai.main:main"
+tai = "terai.main:main"
