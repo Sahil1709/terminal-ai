@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "terminal-ai"
+name = "terai"
 version = "0.1.0"
 description = ""
 authors = ["Sahil Gupta"]
